@@ -188,7 +188,7 @@ function App() {
               onClick={() => setShowCreatePost(false)}
               className="px-4 py-2 bg-gold-400 text-white rounded-lg hover:bg-gold-500"
             >
-              Close
+              Tutups
             </button>
           </div>
         </div>

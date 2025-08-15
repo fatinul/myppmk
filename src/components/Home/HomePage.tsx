@@ -242,41 +242,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
 
-        {/* Message Board */}
-        <div className="bg-white rounded-lg border border-gray-200 p-4">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">Message Board</h3>
-          <div className="space-y-3">
-            <div className="p-3 bg-gray-50 rounded-lg">
-              <p className="text-sm text-gray-700">
-                "Looking for Korean language exchange partner! DM me 📚"
-              </p>
-              <p className="text-xs text-gray-500 mt-1">- Sarah Kim, 2h ago</p>
-            </div>
-            <div className="p-3 bg-gray-50 rounded-lg">
-              <p className="text-sm text-gray-700">
-                "Anyone interested in forming a K-drama discussion group? 🎬"
-              </p>
-              <p className="text-xs text-gray-500 mt-1">- Alex Lee, 4h ago</p>
-            </div>
-            <div className="p-3 bg-gray-50 rounded-lg">
-              <p className="text-sm text-gray-700">
-                "Selling Korean textbooks at great prices! Check my profile 📖"
-              </p>
-              <p className="text-xs text-gray-500 mt-1">- Jenny Park, 6h ago</p>
-            </div>
-          </div>
-          <div className="mt-4">
-            <textarea
-              placeholder="Share a quick message (280 chars)..."
-              className="w-full p-3 border border-gray-300 rounded-lg resize-none text-sm"
-              rows={3}
-              maxLength={280}
-            />
-            <button className="mt-2 px-4 py-2 bg-gold-400 text-white rounded-lg hover:bg-gold-500 transition-colors text-sm">
-              Post Message
-            </button>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange, onCreatePost, onCreateEvent }) => {
   const menuItems = [
     { id: 'home', label: 'Home', icon: Home },
-    { id: 'search', label: 'Search', icon: Search },
+    // { id: 'search', label: 'Search', icon: Search },
     { id: 'notifications', label: 'Notifications', icon: Bell },
     { id: 'events', label: 'Events', icon: Calendar },
     { id: 'messages', label: 'Messages', icon: MessageCircle },
@@ -43,7 +43,6 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange, onCreatePost,
         </div>
         <div>
           <h1 className="text-xl font-bold text-gray-900">MyPPMK</h1>
-          <p className="text-sm text-gray-500">Korean Student Club</p>
         </div>
       </div>
 
