@@ -10,7 +10,7 @@ This document outlines the backend development tasks, distributed among five dev
 
 **Key Features:**
 - User Authentication & Profile (2.1, 3.1)
-- Admin Console (User & Tag Management) (5)
+- Admin Console (User & Tag Management) (5) (Optional)
 
 **Tasks:**
 1.  **Initial Setup:** Configure the core backend framework, database connection, and CI/CD pipeline.
@@ -21,10 +21,13 @@ This document outlines the backend development tasks, distributed among five dev
     - Enforce mandatory profile completion upon first login.
 3.  **User & Role Management:**
     - Create CRUD endpoints for user profiles (`/users/{id}`).
-    - Implement the API for the **Admin Console** to manage users (activate/deactivate, assign `position`, promote to `Community Admin`).
+    - Implement the API for the **Admin Console** to manage users (activate/deactivate, assign `position`, promote to `Community Admin`). (Optional)
 4.  **Tag Management:**
-    - Create CRUD endpoints for the **Admin Console** to manage `Tags` (name, type, slug).
+    - Create CRUD endpoints for the **Admin Console** to manage `Tags` (name, type, slug). (Optional)
     - Ensure that posts and events can be associated with a tag.
+    - **User Page:**
+      - Have a dedicated page for each user
+      - Show all the posts that they have posted (Optional)
 
 ---
 
